@@ -1,0 +1,32 @@
+#home {
+    background-image: url("https://www.google.com/search?q=dark+blue+background+4k&tbm=isch&ved=2ahUKEwjI05LczfPsAhUlIMUKHcv8CqIQ2-cCegQIABAA&oq=dark+blue+background+&gs_lcp=CgNpbWcQARgJMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIAFD4MFj4MGCxP2gAcAB4AIABlgGIAZYBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6jyoX8i2LKXAlAbL-auQCg&bih=722&biw=1536#imgrc=Fnu3JBh3GMig4M");
+    background-repeat: no-repeat;
+    display: table;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+   height: 100vh;  
+}
+
+#main {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10pt;
+    font-size: 60pt;
+    margin: 0;
+    background: -webkit-linear-gradient(#eee, rgb(122, 122, 122));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: grey;
+    margin-top: 30px;
+}
+
+#content {
+    margin-top: 50px;
+    color:rgb(201, 201, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    margin-left: 70px;
+    margin-right: 70px;
+    word-spacing: 10px;
+}

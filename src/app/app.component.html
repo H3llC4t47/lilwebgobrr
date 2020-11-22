@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm bg-dark">
+
+  <button type="button" class="btn btn-outline-primary"><a routerLink="home">Home</a></button>
+
+  <button type="button" class="btn btn-outline-primary"><a routerLink="about">About</a></button>
+
+  <button type="button" class="btn btn-outline-primary"><a routerLink="contact">Contact</a></button>
+
+</nav>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <h2>Collapsed Sidebar</h2>
+  <p>Content...</p>
+</div>
+
+<router-outlet></router-outlet>
